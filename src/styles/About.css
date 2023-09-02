@@ -1,0 +1,59 @@
+img.about {
+    height: auto;
+    width: auto;
+    max-width: 22%;
+    
+    position: relative;
+    z-index:1;
+    top: 7vh;
+    left: 62vw;
+}
+
+div.about {
+    position: relative;
+    z-index:1;
+    margin-top: 12vh;
+    left: 52vw;
+    width: 31vw;
+
+    font-size: 12.5pt;
+    line-height: 1.8;
+    letter-spacing: .05em;
+    text-align: right;
+}
+
+/* div.highlight {
+    width: 100px;
+    height: 20px;
+    background-color: rgba(148, 202, 148, 0.3);
+    border-radius: 20px;
+    padding-block: 2px;
+
+    position: relative;
+    z-index: 0;
+    top: -100%;
+    left: 23.8vw;
+}*/
+
+.about-arrow {
+    position: relative;
+    left: 48.5%;
+    bottom: 5%;
+    max-height: 6%;
+    max-width: 3%;
+    width: auto;
+    height: auto;
+}
+
+.moose {
+    position: absolute;
+    z-index: 0;
+
+    max-height: 96%;
+    max-width: 30%;
+    width: auto;
+    height: auto;
+    top: 109vh;
+    left: 14vw;
+
+}

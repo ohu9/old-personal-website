@@ -1,0 +1,119 @@
+html, body {
+    font-family: 'Garamond';
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: white;
+    position: relative;
+    z-index: 4;
+}
+
+/* FRONT PAGE ELEMENTS */
+section.front-page {
+    padding-top: 90px;
+    padding-inline: 10%;
+    padding-bottom: 30px;
+    height: 91vh;
+}
+
+*.layer1 {
+    position: absolute;
+    z-index:0;
+}
+*.layer2 {
+    position: absolute;
+    z-index:1;
+}
+*.layer3 {
+    position: absolute;
+    z-index:2;
+}
+
+.bluebox {
+    max-height: 63%;
+    max-width: 60%;
+    top:17%;
+    right: 0;
+}
+
+.goat {
+    top:10%;
+    right:1%;
+    max-height: 79%;
+    max-width: 47%;
+    width: auto;
+    height: auto;
+}
+
+.arrow {
+    position: absolute;
+    left: 48.5%;
+    bottom: 5%;
+    max-height: 6%;
+    max-width: 3%;
+    width: auto;
+    height: auto;
+}
+
+/* layer 3: top */
+.h, .layer3 { /* "I'm.." */
+    font-size: 1.3vw;
+    font-weight: 400;
+    letter-spacing: .1em;
+    position: relative;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+p.layer3 {
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: .07em;
+    line-height: 1.2;
+    margin-top: 12px;
+    margin-left: 6%;
+    position: relative;
+}
+img.layer3 { /* "hello" */
+    width: auto;
+    height: auto;
+    position: relative;
+    max-width: 42%;
+    margin-top: 10vh;
+    margin-left: 0;
+}
+
+/* SECTIONS */
+
+section {
+    height: 92vh;
+    padding-top: 8vh;
+}
+
+div.section { /*padding on section ensures content shows beneath nav bar*/
+    margin-inline: 5%;
+}
+
+button.download {
+    margin-top: 2%;
+    margin-left: -1%;
+    padding: 12px 8px;
+    width: 15%;
+    
+    font-size: .9vw;
+    font-weight: 400;
+    letter-spacing: .1em;
+
+    background-color: transparent;
+    border-color: black;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+button.download:hover {
+    color: white;
+    letter-spacing: .15em;
+    background-color: rgba(0, 0, 0,.9);
+    border-color: transparent;
+    cursor: pointer;
+  }
