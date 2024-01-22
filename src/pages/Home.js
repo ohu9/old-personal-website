@@ -5,6 +5,7 @@ import Navbar from '../Navbar';
 import Hello from './Hello';
 import About from './About';
 import Contact from './Contact';
+import Projects from './Projects';
 import Footer from './Footer';
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
 
       {/* sections are the entire block in which content is housed */}
       <About />
+      <Projects />
       {/* <section id='section-projects'>Projects</section>
       <section id='section-experience'>Experience</section> */}
       <Contact />
