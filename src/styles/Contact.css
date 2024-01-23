@@ -48,14 +48,13 @@ button.contact-btn:hover {
 }
 
 div.up-arrow {
-    margin-bottom: 0;
-    background-color: white;
+    margin-bottom: -20vh;
+    background-color: blue;
 }
 
 img.up-arrow {
     position: relative;
     left: 49%;
-    bottom: -10vh;
     max-height: 5%;
     max-width: 1%;
     width: auto;
@@ -72,3 +71,11 @@ img.back-to-top {
 
     margin-top: 1%;
 }
+
+p.back-to-top {
+    font-size: 100%;
+    letter-spacing: .05em;
+    color: black;
+    text-align: center;
+    bottom: 2vh;
+  }

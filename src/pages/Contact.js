@@ -33,7 +33,7 @@ export default function Contact() {
           whileHover={{ scale: 1.06 }} />
         </a>
         <a href="#top">
-          <motion.img src={back_to_top} className='back-to-top' whileHover={{ scale: 1.06 }}/>
+          <p className='back-to-top'>back to top</p>
         </a>
       </div>
     </section>);
