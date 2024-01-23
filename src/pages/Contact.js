@@ -5,7 +5,7 @@ import contact from '../images/contact.png';
 import arrow from '../images/up-arrow.png';
 import back_to_top from '../images/back-to-top.jpeg';
 
-const labels = ['email', 'github', 'linked in']
+const labels = ['email', 'github', 'linkedin']
 const buttons = labels.map(label => <button className='contact-btn' >{label}</button>)
 
 export default function Contact() {
