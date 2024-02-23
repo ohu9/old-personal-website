@@ -24,7 +24,15 @@ const Projects = () => {
             </p>
             <div className="project-buttons">
                 <a href="#top" target="_blank" className="project-button">
-                    <button className="project-button">This website!</button>
+                    <button className="project-button">This website!
+                    <ul>
+                        <li>Graphics: Procreate</li>
+                        <li>Tools: React, <a href="https://render.com/" target="_blank">Render</a></li>
+                        <li>Public repository <a className="link" href="https://github.com/ohu9/old-personal-website.git" target="_blank">here</a></li>
+                    </ul>
+                    Reconstructed version coming soon.. using React, TypeScript, Expo, Next.js, Firebase, TailwindCSS
+                    (<a href="https://github.com/ohu9/olivia-hu-website.git" target="_blank">see progress</a>)
+                    </button>
                 </a>
                 <a href="https://www.gtagora.com" target="_blank" className="project-button">
                     <button className="project-button">Website for <i>Agora</i>, a literary journal at Georgia Tech
