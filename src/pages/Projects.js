@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import '../styles/Projects.css';
 
-import about from '../images/about.png';
+import projects from '../images/projects.png';
 import arrow from '../images/arrow.png';
 
 const Projects = () => {
@@ -14,11 +14,11 @@ const Projects = () => {
     return(<section id='section-projects'>
         {/* <motion.div class='section'>hi</motion.div> */}
 
-        <motion.img src={about} className='about'
+        <motion.img src={projects} className='projects'
             animate={{ y: 0, transition: { duration: .7 } }}
             whileHover={{ y: -13, transition: { duration: .7 } }}
         />
-        <div className='about'>
+        <div className='projects'>
             <p>&emsp;Hello! I’m currently an undergrad at Georgia Tech in my second year studying
                 computer science. </p>
             <p>&emsp;I was first drawn to the world of computer programming in middle school when 

@@ -1,0 +1,12 @@
+div.projects {
+    display: flex;
+    justify-content: center;
+}
+
+img.projects {
+    margin-top: 90px;
+    max-height: 15%;
+    max-width: 33%;
+    width: auto;
+    height: auto;
+}

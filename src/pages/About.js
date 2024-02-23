@@ -46,7 +46,7 @@ export default function About() {
                 transition={{ duration: .4 }}
             ></motion.div>}
         </div>
-        <a href="#section-projects"><motion.img src={arrow} className='about-arrow'
+        <a href="#section-contact"><motion.img src={arrow} className='about-arrow'
                 initial={{ opacity: 0}}
                 animate={{ 
                     opacity: [1,1,1], y:[0,10,0],
