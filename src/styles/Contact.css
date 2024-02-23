@@ -53,9 +53,10 @@ div.up-arrow {
 
 img.up-arrow {
     position: relative;
-    left: 49%;
-    max-height: 5%;
-    max-width: 1%;
+    left: 48.5%;
+    top: 20%;
+    max-height: 6%;
+    max-width: 3%;
     width: auto;
     height: auto;
 }

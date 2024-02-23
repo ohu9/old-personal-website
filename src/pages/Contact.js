@@ -24,17 +24,12 @@ export default function Contact() {
           <a href="https://github.com/ohu9" target="_blank">{buttons[1]}</a>
           <a href="https://www.linkedin.com/in/oliviahhu/" target="_blank">{buttons[2]}</a>
       </div>
-      <div className='up-arrow'>
-        <a href="#top"><motion.img src={arrow} className='up-arrow'
-          initial={{ opacity: 0}}
-          animate={{ 
-              opacity: [1,1,1], y:[0,10,0],
-              transition: {repeat: Infinity, delay: .3, duration: 1.9}}}
-          whileHover={{ scale: 1.06 }} />
-        </a>
-        <a href="#top">
-          <p className='back-to-top'>back to top</p>
-        </a>
-      </div>
+      <a href="#top"><motion.img src={arrow} className='up-arrow'
+            initial={{ opacity: 0}}
+            animate={{ 
+                opacity: [1,1,1], y:[0,10,0],
+                transition: {repeat: Infinity, duration: 1.9}}}
+            whileHover={{scale:1.05}}/>
+      </a>
     </section>);
 };

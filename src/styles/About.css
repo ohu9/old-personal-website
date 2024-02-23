@@ -15,11 +15,14 @@ div.about {
     margin-top: 12vh;
     left: 52vw;
     width: 31vw;
+    height: 55vh;
 
     font-size: 12.5pt;
     line-height: 1.8;
     letter-spacing: .05em;
     text-align: right;
+    text-overflow: clip;
+    overflow: scroll;
 }
 
 /* div.highlight {

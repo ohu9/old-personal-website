@@ -1,12 +1,70 @@
-div.projects {
-    display: flex;
-    justify-content: center;
+img.projects {
+    margin-top: 0px;
+    margin-left: 200px;
+    max-width: 25%;
+    width: auto;
+    height: auto;
 }
 
-img.projects {
-    margin-top: 90px;
-    max-height: 15%;
-    max-width: 33%;
+div.projects {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index:1;
+    margin-top: 3vh;
+    left: 15vw;
+    width: 80%;
+    height: 59vh;
+
+    font-size: 12.5pt;
+    line-height: 1.8;
+    letter-spacing: .05em;
+    text-align: left;
+}
+
+div.project-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+a.project-button {
+    width: 20%;
+}
+
+button.project-button {
+    width: 100%;
+    font-size: 12pt;
+    text-align: left;
+    padding: 1.3rem;
+    line-height: 180%;
+    /* background-color: #e3f6ff; */
+    background-color: #fefefe;
+
+    border-radius: 1rem;
+    border: 1.5px #efefef solid;
+    box-shadow: rgb(191, 191, 191) 3px 3px 3px 1px;
+}
+
+button:hover.project-button {
+    background-color: #efefef;
+    transition: ease-in-out .3s;
+}
+
+a.link {
+    color: black;
+    font-style: italic;
+}
+a:visited {
+    color: black;
+    font-style: italic;
+}
+.projects-arrow {
+    position: relative;
+    left: 48.5%;
+    bottom: 0;
+    max-height: 6%;
+    max-width: 3%;
     width: auto;
     height: auto;
 }
